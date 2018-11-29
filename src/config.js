@@ -2,16 +2,16 @@ export default {
   MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "us-east-1",
-    BUCKET: "notes-app-uploads"
+    BUCKET: "scalerep-app-upload"
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://5by75p4gn3.execute-api.us-east-1.amazonaws.com/prod"
+    URL: "https://whtu6lyby0.execute-api.us-east-1.amazonaws.com/prod"
   },
   cognito: {
     REGION: "us-east-1",
-    USER_POOL_ID: "us-east-1_udmFFSb92",
-    APP_CLIENT_ID: "4hmari2sqvskrup67crkqa4rmo",
-    IDENTITY_POOL_ID: "us-east-1:ceef8ccc-0a19-4616-9067-854dc69c2d82"
+    USER_POOL_ID: "us-east-1_quImiy094",
+    APP_CLIENT_ID: "4u7eabppfege62jk52f3u48jql",
+    IDENTITY_POOL_ID: "us-east-1:84208557-ea58-4f6e-a001-f407a7d3da46"
   }
 };
