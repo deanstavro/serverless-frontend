@@ -1,5 +1,5 @@
 {
-  "name": "notes-app",
+  "name": "scalerep-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"

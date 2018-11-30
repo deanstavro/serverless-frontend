@@ -4,6 +4,7 @@ import Home from "./containers/Home";
 import Notes from "./containers/Notes";
 import Login from "./containers/Login";
 import Signup from "./containers/Signup";
+import Blog from "./containers/Blog";
 import NewNote from "./containers/NewNote";
 import NotFound from "./containers/NotFound";
 import AppliedRoute from "./components/AppliedRoute";
